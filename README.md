@@ -1,34 +1,34 @@
-# Backend My Basecamp 2
-Follow up on `MyBaseCamp1` project you will add new features to your website.
+## Table of Contents
+- [Task](#Task)
+- [Description](#Description)
+- [Installation](#installation)
+- [Installation](#Installation)
+- [License](#license)
 
-### Features:
+## Task 
+-What is The Basecamp?
+-It's a web-based project management tool launched in 2004. Its primary features are to-do lists, milestone management, forum-like messaging, file sharing, and time tracking - [basecamp](https://basecamp.com/)
 
-## Inside a project
-1. Attachment
-  - Attachment#create
-  - Attachment##destroy
-Any users associated to the `project` can create an attachment.
+You will have a to create a website which mimique features from the original tools. It means having a database, a backend and a frontend. This project is splitted in 3 parts.
+this is link to my project  [my-baseecamp-2](https://basecamp2-lfx6.onrender.com)
 
-You should store the format and it might be useful to display it on project#show (from `MyBaseCamp1`)
-Format: any (png/jpg/pdf/txt)
-In summary, you should be able to add multiple attachments to your project.
+## Description 
+-I am try to clone a tool, and I believe it looks similar to 'orign'
+-I used Express.js and Ejs for Back end , and for database , I used MySQL
 
-2. Thread (let's discuss!)
-  - Thread#new
-  - Thread#edit
-  - Thread#destroy
-Only `project admin` can create a thread.
 
-## Inside a thread
-3. Message
-  - Message#new
-  - Message#edit
-  - Message#destroy
-Any users associated to the `project` can create a message.
+## Installation
+-There is no need to install anything, just go to the site and rate
+-npm install for necessary dependencies
+-npm start for starting web site
 
-Users should be able to post `message` into a `thread`.
+| username | eamil                         |  password | role      |
+|----------|-------------------------------|-----------|-----------|
+|Abdushukur|abduhakimovabdushukur@gamil.com|   12345   | admin     |
+|  user    | user@gmail.com                | user1     | non admin |
 
-Your project will also be hosted in the cloud and you will provide a link in your README.
 
-Example:
-![image](https://github.com/bahtibek-an/Backend-My-basecamp-2/assets/57597976/65c461bd-f56d-4d68-b926-0db672166f4e)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
